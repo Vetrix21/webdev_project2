@@ -2,6 +2,7 @@ h1{
     color:#71983F;
     text-transform: uppercase;
     padding: 0px 15px;
+    margin: 0;
 }
 
 body{
@@ -25,7 +26,7 @@ body{
 }
 
 header{
-    background-color:#667A67;
+    background-color: #202C39;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,16 +64,21 @@ a:visited{
 }
 
 a:hover {
-    color:#660005;
+    color:#A4243B;
 }
 
 a:active {
     color: black;
 }
 
+#currentpage {
+    color: #CD8B76;
+}
+
 h2{
     color: #71983F;
     font-size: 1.5rem;
+    font-style: italic;
     text-align:left;
     border-bottom: 2px solid;
 }
@@ -93,11 +99,11 @@ section{
 img{
     width: 30%;
     height: auto;
-    display: inline;
+    display: inline-block;
 }
 
 #video iframe{
     aspect-ratio: 16 / 9;
     width: 100%;
-
+    border: 0px;
 }
