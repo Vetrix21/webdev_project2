@@ -96,10 +96,12 @@ section{
   background: rgba(0, 0, 0, 0.2);    
 }
 
+
 img{
   width: 30%;
   height: auto;
-  display: inline;
+  display: inline-flex;
+  
 }
 
 #video iframe{
